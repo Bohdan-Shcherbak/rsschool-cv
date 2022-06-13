@@ -6,17 +6,8 @@
 	border: 0;
 	box-sizing: border-box;
 }
-a {
-    text-decoration: none;
-}
-ul,
-ol,
-li {
-    list-style: none;
-}
-img {
-    vertical-align: top;
-}
+
+
 h1,
 h2,
 h3,
@@ -28,9 +19,62 @@ h6 {
 }
 html,
 body {
-	height: 100%;
-    line-height: 1;
     font-size: 14px;
-    background-color: #333;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Montserrat;
+    display: flex;
+    padding: 20px;
 } 
+
+
+.sidebar{
+    background: #1e2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+img{
+    width: 370px;
+}
+.sidebar__contacts{
+    margin: 50px 40px 0px 40px;
+}
+.sidebar__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar__link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434c5a;
+}
+
+.sidebar__link--type{
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.sidebar__tech-skills{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.sidebar__item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sidebar__tech-skills--color{
+    color: #fff;
+    margin-left: 15px;
+}
+.my-information{
+    background-color: red;
+    padding: 110px 90px 110px 90px;
+}
