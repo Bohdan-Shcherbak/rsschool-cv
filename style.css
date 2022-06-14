@@ -121,22 +121,21 @@ footer{
     color: #000;
     font-size: 20px;
 }
-.decoration{
+
+.footer__link{
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.footer__link{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+
+.footer__svg{
+    fill:#fff;
 }
 
 .footer__github{
     text-decoration: none;
-    /* padding-left: 20px; */
     color: #fff;
     font-weight: 500;
     font-size: 30px;
@@ -145,13 +144,9 @@ footer{
 
 }
 .rsschool-logo{
- width: 85px;
- height: 40px;
- float: right;
- vertical-align: middle;
- color: #fff;
-}
-
-.svg{
-    fill:#fff;
+    width: 85px;
+    height: 40px;
+    float: right;
+    vertical-align: middle;
+    color: #fff;
 }
