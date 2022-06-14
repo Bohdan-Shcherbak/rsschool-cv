@@ -5,10 +5,6 @@
 	margin: 0;
 	border: 0;
 }
-
-
-
-
 body {
     font-size: 14px;
     font-family: Montserrat;
@@ -18,18 +14,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
 } 
-
 main{
     display: flex;
     width: 100%;
 }
-
 .sidebar{
     background: #0A1626;
     width: auto;
     padding: 40px 0;
 }
-
 .my-photo{
     width: 370px;
     margin: 0 40px;
@@ -44,20 +37,17 @@ main{
     color: #fff;
     margin-bottom: 20px;
 }
-
 .sidebar__link{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     color: #434c5a;
 }
-
 .sidebar__link--type{
     color: #fff;
     margin-right: 10px;
     font-weight: 700;
 }
-
 .sidebar__tech-skills{
     margin-left: 40px;
     margin-right: 40px;
@@ -68,7 +58,6 @@ main{
     font-weight: 400;
     line-height: 24px;
 }
-
 .sidebar__tech-skills--color{
     color: #fff;
     margin-left: 15px;
@@ -90,7 +79,6 @@ main{
 .about-me__container{
     max-width: 400px;
 }
-
 .about-me__title{
     font-size: 22px;
     font-weight: 700;
@@ -100,14 +88,12 @@ main{
     margin-bottom: 10px;
     margin-left: 20px;
 }
-
 .about-me__text{
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     color: #63728b;
 }
-
 footer{
     background-color: #0A1626;
     min-height: 150px;
@@ -121,7 +107,6 @@ footer{
     color: #000;
     font-size: 20px;
 }
-
 .footer__link{
     text-decoration: none;
     display: flex;
@@ -129,11 +114,9 @@ footer{
     align-items: center;
     gap: 20px;
 }
-
 .footer__svg{
     fill:#fff;
 }
-
 .footer__github{
     text-decoration: none;
     color: #fff;
@@ -141,7 +124,6 @@ footer{
     font-size: 30px;
     align-items: center;
     justify-content: center;
-
 }
 .rsschool-logo{
     width: 85px;
